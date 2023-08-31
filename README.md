@@ -34,7 +34,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <p>
 <img width="871" alt="Screenshot 2023-08-21 at 3 20 22 PM" src="https://github.com/EvanGCowan/configure-ad/assets/142631599/1dd4ec26-6be7-4b4f-9a08-a6d5eb580b07">
 </p>
-<p>TEXT DESCRIPTION GOES HERE
+<p>Resources were created in Microsoft Azure. This included a common virtual network, a domain controller and a client who is using Windows 10.
 </p>
 <br />
 
@@ -42,7 +42,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img width="877" alt="Screenshot 2023-08-21 at 3 23 58 PM" src="https://github.com/EvanGCowan/configure-ad/assets/142631599/4c3c89b7-0a2b-47f3-8f61-7a201f3d35fa">
 </p>
 <p>
-TEXT DESCRIPTION GOES HERE
+In Azure, the domain controller’s NIC Private IP address is set to static.
 </p>
 <br />
 
@@ -50,7 +50,7 @@ TEXT DESCRIPTION GOES HERE
 <img width="1195" alt="Screenshot 2023-08-21 at 3 33 54 PM" src="https://github.com/EvanGCowan/configure-ad/assets/142631599/d2912537-f7d6-4e71-ac0f-3a04ca804874">
 </p>
 <p>
-TEXT DESCRIPTION GOES HERE
+From the clients computer, I user command prompt to check network connectivity to the domain controller and see that will not connect. 
 </p>
 <br />
 
@@ -59,16 +59,7 @@ TEXT DESCRIPTION GOES HERE
 <img width="1399" alt="Screenshot 2023-08-21 at 3 38 46 PM" src="https://github.com/EvanGCowan/configure-ad/assets/142631599/269fb8c1-a2c1-463c-ad3a-dac887fbefab">
 </p>
 <p>
-TEXT DESCRIPTION GOES HERE
-</p>
-<br />
-
-
-<p>
-<img width="1461" alt="Screenshot 2023-08-21 at 3 39 41 PM" src="https://github.com/EvanGCowan/configure-ad/assets/142631599/1e36a18b-3c84-42ed-b26f-d39e607a0fb6">
-</p>
-<p>
-TEXT DESCRIPTION GOES HERE
+To resolve the connectivity issue, I login to the domain controller and enable ICMPv4 in the local windows firewall settings.
 </p>
 <br />
 
@@ -77,7 +68,7 @@ TEXT DESCRIPTION GOES HERE
 <img width="1399" alt="Screenshot 2023-08-21 at 3 40 07 PM" src="https://github.com/EvanGCowan/configure-ad/assets/142631599/da630a96-9adf-4347-b7cc-47ddbf6867fd">
 </p>
 <p>
-TEXT DESCRIPTION GOES HERE
+I again test connectivity to the domain controller from the client using the ping command, we see SUCCESS!
 </p>
 <br />
 
@@ -86,7 +77,7 @@ TEXT DESCRIPTION GOES HERE
 <img width="1461" alt="Screenshot 2023-08-21 at 3 42 41 PM" src="https://github.com/EvanGCowan/configure-ad/assets/142631599/f710c0a2-2d35-4e36-9e52-d3a7ce3c71b4">
 </p>
 <p>
-TEXT DESCRIPTION GOES HERE
+In the domain controller, I install Active Directory Domain Services.
 </p>
 <br />
 
@@ -95,7 +86,7 @@ TEXT DESCRIPTION GOES HERE
 <img width="1461" alt="Screenshot 2023-08-21 at 3 45 04 PM" src="https://github.com/EvanGCowan/configure-ad/assets/142631599/1bb4fb19-0f87-4314-8f6e-d652e0d19f35">
 </p>
 <p>
-TEXT DESCRIPTION GOES HERE
+Here, I setup a new forest as mydomain.com on the domain controller. We then log out and log back on as mydomain.com\labuser so we can add/change some settings in Active Directory.
 </p>
 <br />
 
@@ -104,7 +95,7 @@ TEXT DESCRIPTION GOES HERE
 <img width="1463" alt="Screenshot 2023-08-21 at 4 00 37 PM" src="https://github.com/EvanGCowan/configure-ad/assets/142631599/43dcd43f-57c4-4aa1-8e6c-274692eb43f6">
 </p>
 <p>
-TEXT DESCRIPTION GOES HERE
+I am set up to add some organizational units (OUs) to Active Directory.
 </p>
 <br />
 
@@ -113,7 +104,7 @@ TEXT DESCRIPTION GOES HERE
 <img width="1507" alt="Screenshot 2023-08-21 at 4 01 36 PM" src="https://github.com/EvanGCowan/configure-ad/assets/142631599/559f59fa-f509-450b-bc60-d96f72adb032">
 </p>
 <p>
-TEXT DESCRIPTION GOES HERE
+In Active Directory Users and Computers (ADUC), I create an organizational unit called “_EMPLOYEES” and one new OU named “_ADMINS”
 </p>
 <br />
 
@@ -121,7 +112,7 @@ TEXT DESCRIPTION GOES HERE
 <img width="1507" alt="Screenshot 2023-08-21 at 4 02 36 PM" src="https://github.com/EvanGCowan/configure-ad/assets/142631599/29ef35bd-a087-423c-8a8f-370b4b4ead4e">
 </p>
 <p>
-TEXT DESCRIPTION GOES HERE
+You can see the new OUs on the left in the dropdown menu. 
 </p>
 <br />
 
