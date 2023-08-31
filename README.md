@@ -32,14 +32,14 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
-IMAGE GOES HERE
+<img width="871" alt="Screenshot 2023-08-21 at 3 20 22 PM" src="https://github.com/EvanGCowan/configure-ad/assets/142631599/1dd4ec26-6be7-4b4f-9a08-a6d5eb580b07">
 </p>
 <p>TEXT DESCRIPTION GOES HERE
 </p>
 <br />
 
 <p>
-IMAGE GOES HERE
+<img width="877" alt="Screenshot 2023-08-21 at 3 23 58 PM" src="https://github.com/EvanGCowan/configure-ad/assets/142631599/4c3c89b7-0a2b-47f3-8f61-7a201f3d35fa">
 </p>
 <p>
 TEXT DESCRIPTION GOES HERE
@@ -47,16 +47,7 @@ TEXT DESCRIPTION GOES HERE
 <br />
 
 <p>
-IMAGE GOES HERE
-</p>
-<p>
-TEXT DESCRIPTION GOES HERE
-</p>
-<br />
-
-
-<p>
-IMAGE GOES HERE
+<img width="1195" alt="Screenshot 2023-08-21 at 3 33 54 PM" src="https://github.com/EvanGCowan/configure-ad/assets/142631599/d2912537-f7d6-4e71-ac0f-3a04ca804874">
 </p>
 <p>
 TEXT DESCRIPTION GOES HERE
@@ -65,7 +56,7 @@ TEXT DESCRIPTION GOES HERE
 
 
 <p>
-IMAGE GOES HERE
+<img width="1399" alt="Screenshot 2023-08-21 at 3 38 46 PM" src="https://github.com/EvanGCowan/configure-ad/assets/142631599/269fb8c1-a2c1-463c-ad3a-dac887fbefab">
 </p>
 <p>
 TEXT DESCRIPTION GOES HERE
@@ -74,7 +65,7 @@ TEXT DESCRIPTION GOES HERE
 
 
 <p>
-IMAGE GOES HERE
+<img width="1461" alt="Screenshot 2023-08-21 at 3 39 41 PM" src="https://github.com/EvanGCowan/configure-ad/assets/142631599/1e36a18b-3c84-42ed-b26f-d39e607a0fb6">
 </p>
 <p>
 TEXT DESCRIPTION GOES HERE
@@ -83,7 +74,7 @@ TEXT DESCRIPTION GOES HERE
 
 
 <p>
-IMAGE GOES HERE
+<img width="1399" alt="Screenshot 2023-08-21 at 3 40 07 PM" src="https://github.com/EvanGCowan/configure-ad/assets/142631599/da630a96-9adf-4347-b7cc-47ddbf6867fd">
 </p>
 <p>
 TEXT DESCRIPTION GOES HERE
@@ -92,7 +83,7 @@ TEXT DESCRIPTION GOES HERE
 
 
 <p>
-IMAGE GOES HERE
+<img width="1461" alt="Screenshot 2023-08-21 at 3 42 41 PM" src="https://github.com/EvanGCowan/configure-ad/assets/142631599/f710c0a2-2d35-4e36-9e52-d3a7ce3c71b4">
 </p>
 <p>
 TEXT DESCRIPTION GOES HERE
@@ -101,7 +92,7 @@ TEXT DESCRIPTION GOES HERE
 
 
 <p>
-IMAGE GOES HERE
+<img width="1461" alt="Screenshot 2023-08-21 at 3 45 04 PM" src="https://github.com/EvanGCowan/configure-ad/assets/142631599/1bb4fb19-0f87-4314-8f6e-d652e0d19f35">
 </p>
 <p>
 TEXT DESCRIPTION GOES HERE
@@ -110,7 +101,104 @@ TEXT DESCRIPTION GOES HERE
 
 
 <p>
-IMAGE GOES HERE
+<img width="1463" alt="Screenshot 2023-08-21 at 4 00 37 PM" src="https://github.com/EvanGCowan/configure-ad/assets/142631599/43dcd43f-57c4-4aa1-8e6c-274692eb43f6">
+</p>
+<p>
+TEXT DESCRIPTION GOES HERE
+</p>
+<br />
+
+
+<p>
+<img width="1507" alt="Screenshot 2023-08-21 at 4 01 36 PM" src="https://github.com/EvanGCowan/configure-ad/assets/142631599/559f59fa-f509-450b-bc60-d96f72adb032">
+</p>
+<p>
+TEXT DESCRIPTION GOES HERE
+</p>
+<br />
+
+<p>
+<img width="1507" alt="Screenshot 2023-08-21 at 4 02 36 PM" src="https://github.com/EvanGCowan/configure-ad/assets/142631599/29ef35bd-a087-423c-8a8f-370b4b4ead4e">
+</p>
+<p>
+TEXT DESCRIPTION GOES HERE
+</p>
+<br />
+
+<p>
+<img width="1507" alt="Screenshot 2023-08-21 at 4 06 46 PM" src="https://github.com/EvanGCowan/configure-ad/assets/142631599/c85a667d-3927-4414-acd9-5d0b5cc01a0a">
+</p>
+<p>
+TEXT DESCRIPTION GOES HERE
+</p>
+<br />
+
+<p>
+<img width="1463" alt="Screenshot 2023-08-21 at 4 07 50 PM" src="https://github.com/EvanGCowan/configure-ad/assets/142631599/f4898657-d52b-4154-b109-fb3b913b3ac8">
+</p>
+<p>
+TEXT DESCRIPTION GOES HERE
+</p>
+<br />
+
+<p>
+<img width="1224" alt="Screenshot 2023-08-21 at 4 33 00 PM" src="https://github.com/EvanGCowan/configure-ad/assets/142631599/00b2495f-2083-4397-a7b6-ff7c5a4adabf">
+</p>
+<p>
+TEXT DESCRIPTION GOES HERE
+</p>
+<br />
+
+<p>
+<img width="1404" alt="Screenshot 2023-08-21 at 4 38 22 PM" src="https://github.com/EvanGCowan/configure-ad/assets/142631599/851204b4-4eb1-4e5d-a495-9761bd8a5167">
+</p>
+<p>
+TEXT DESCRIPTION GOES HERE
+</p>
+<br />
+
+<p>
+<img width="1398" alt="Screenshot 2023-08-21 at 4 46 12 PM" src="https://github.com/EvanGCowan/configure-ad/assets/142631599/eda7e0c8-a397-4399-b258-d0ca5139f113">
+</p>
+<p>
+TEXT DESCRIPTION GOES HERE
+</p>
+<br />
+
+<p>
+<img width="1416" alt="Screenshot 2023-08-21 at 4 47 32 PM" src="https://github.com/EvanGCowan/configure-ad/assets/142631599/605e44d9-3805-4fdb-93d3-b8a0e9c58a20">
+</p>
+<p>
+TEXT DESCRIPTION GOES HERE
+</p>
+<br />
+
+<p>
+<img width="1416" alt="Screenshot 2023-08-21 at 4 49 35 PM" src="https://github.com/EvanGCowan/configure-ad/assets/142631599/16109395-5827-45ee-bd91-08530aa4b457">
+</p>
+<p>
+TEXT DESCRIPTION GOES HERE
+</p>
+<br />
+
+<p>
+<img width="1416" alt="Screenshot 2023-08-21 at 4 56 33 PM" src="https://github.com/EvanGCowan/configure-ad/assets/142631599/24d9e7cc-cd81-448c-b314-3be8cac75b6d">
+</p>
+<p>
+TEXT DESCRIPTION GOES HERE
+</p>
+<br />
+
+<p>
+<img width="1416" alt="Screenshot 2023-08-21 at 5 00 04 PM" src="https://github.com/EvanGCowan/configure-ad/assets/142631599/312bf44d-a313-47e3-a4c8-73d05b41fefc">
+</p>
+<p>
+TEXT DESCRIPTION GOES HERE
+</p>
+<br />
+
+<p>
+<img width="1440" alt="Screenshot 2023-08-21 at 5 05 07 PM" src="https://github.com/EvanGCowan/configure-ad/assets/142631599/37b46dff-76bf-4585-9735-81834d318d91">
 </p>
 <p>
 TEXT DESCRIPTION GOES HERE
