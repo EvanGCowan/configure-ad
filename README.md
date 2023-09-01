@@ -50,7 +50,7 @@ In Azure, the domain controller’s NIC Private IP address is set to static.
 <img width="1195" alt="Screenshot 2023-08-21 at 3 33 54 PM" src="https://github.com/EvanGCowan/configure-ad/assets/142631599/d2912537-f7d6-4e71-ac0f-3a04ca804874">
 </p>
 <p>
-From the clients computer, I user command prompt to check network connectivity to the domain controller and see that will not connect. 
+From the clients computer, I use command prompt to check network connectivity to the domain controller and see that will not connect. 
 </p>
 <br />
 
@@ -86,7 +86,7 @@ In the domain controller, I install Active Directory Domain Services.
 <img width="1461" alt="Screenshot 2023-08-21 at 3 45 04 PM" src="https://github.com/EvanGCowan/configure-ad/assets/142631599/1bb4fb19-0f87-4314-8f6e-d652e0d19f35">
 </p>
 <p>
-Here, I setup a new forest as mydomain.com on the domain controller. We then log out and log back on as mydomain.com\labuser so we can add/change some settings in Active Directory.
+Here, I setup a new forest as mydomain.com on the domain controller. I then log out and log back on as mydomain.com\labuser so we can add/change some settings in Active Directory.
 </p>
 <br />
 
