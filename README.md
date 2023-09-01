@@ -120,7 +120,7 @@ You can see the new OUs on the left in the dropdown menu.
 <img width="1507" alt="Screenshot 2023-08-21 at 4 06 46 PM" src="https://github.com/EvanGCowan/configure-ad/assets/142631599/c85a667d-3927-4414-acd9-5d0b5cc01a0a">
 </p>
 <p>
-TEXT DESCRIPTION GOES HERE
+I created a user account as myself.
 </p>
 <br />
 
@@ -128,7 +128,7 @@ TEXT DESCRIPTION GOES HERE
 <img width="1463" alt="Screenshot 2023-08-21 at 4 07 50 PM" src="https://github.com/EvanGCowan/configure-ad/assets/142631599/f4898657-d52b-4154-b109-fb3b913b3ac8">
 </p>
 <p>
-I created a user account as myself. 
+Next, I added myself as a Domain Admin. For the changes to take effect, I log out of the remote desktop connection of the domain controller and log back in as “mydomain.com\evan_admin”
 </p>
 <br />
 
@@ -136,7 +136,7 @@ I created a user account as myself.
 <img width="1224" alt="Screenshot 2023-08-21 at 4 33 00 PM" src="https://github.com/EvanGCowan/configure-ad/assets/142631599/00b2495f-2083-4397-a7b6-ff7c5a4adabf">
 </p>
 <p>
-Next, I added myself as a Domain Admin. 
+DESCRIPTION GOES HERE
 </p>
 <br />
 
