@@ -128,7 +128,7 @@ TEXT DESCRIPTION GOES HERE
 <img width="1463" alt="Screenshot 2023-08-21 at 4 07 50 PM" src="https://github.com/EvanGCowan/configure-ad/assets/142631599/f4898657-d52b-4154-b109-fb3b913b3ac8">
 </p>
 <p>
-TEXT DESCRIPTION GOES HERE
+I created a user account as myself. 
 </p>
 <br />
 
@@ -136,7 +136,7 @@ TEXT DESCRIPTION GOES HERE
 <img width="1224" alt="Screenshot 2023-08-21 at 4 33 00 PM" src="https://github.com/EvanGCowan/configure-ad/assets/142631599/00b2495f-2083-4397-a7b6-ff7c5a4adabf">
 </p>
 <p>
-TEXT DESCRIPTION GOES HERE
+Next, I added myself as a Domain Admin. 
 </p>
 <br />
 
