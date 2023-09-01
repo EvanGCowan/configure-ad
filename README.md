@@ -136,7 +136,7 @@ Next, I added myself as a Domain Admin. For the changes to take effect, I log ou
 <img width="1224" alt="Screenshot 2023-08-21 at 4 33 00 PM" src="https://github.com/EvanGCowan/configure-ad/assets/142631599/00b2495f-2083-4397-a7b6-ff7c5a4adabf">
 </p>
 <p>
-DESCRIPTION GOES HERE
+Back in the Azure Portal, I set the client DNS settings to the domain controllers private IP address. Then we restart the client from the Azure Portal. 
 </p>
 <br />
 
