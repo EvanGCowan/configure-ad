@@ -160,7 +160,6 @@ Log into Client-1 as mydomain.com\jane_admin and open system properties
 Click “Remote Desktop”
 Allow “domain users” access to remote desktop
 You can now log into Client-1 as a normal, non-administrative user now
-
 </p>
 <br />
 
@@ -176,9 +175,7 @@ Login to the Domain Controller (Remote Desktop) and verify Client-1 shows up in 
 <img width="1416" alt="Screenshot 2023-08-21 at 4 49 35 PM" src="https://github.com/EvanGCowan/configure-ad/assets/142631599/16109395-5827-45ee-bd91-08530aa4b457">
 </p>
 <p>
-Login to DC-1 as jane_admin
-Open PowerShell_ise as an administrator
-Create a new File and paste the contents of the script into it 
+I am logged in to the domain controller and have opened Powershell, running it as an administrator so I can create some users for this lab. 
 </p>
 <br />
 
@@ -186,9 +183,7 @@ Create a new File and paste the contents of the script into it
 <img width="1416" alt="Screenshot 2023-08-21 at 4 56 33 PM" src="https://github.com/EvanGCowan/configure-ad/assets/142631599/24d9e7cc-cd81-448c-b314-3be8cac75b6d">
 </p>
 <p>
-Login to DC-1 as jane_admin
-Open PowerShell_ise as an administrator
-Create a new File and paste the contents of the script into it 
+I plug in a pre-made script that will create 1,000 users with random names and run it. Lets pick a funky one that stands out. 
 </p>
 <br />
 
@@ -196,7 +191,7 @@ Create a new File and paste the contents of the script into it
 <img width="1416" alt="Screenshot 2023-08-21 at 5 00 04 PM" src="https://github.com/EvanGCowan/configure-ad/assets/142631599/312bf44d-a313-47e3-a4c8-73d05b41fefc">
 </p>
 <p>
-attempt to log into Client-1 with one of the accounts (take note of the password in the script)
+This is part of the list of random users that were created by running the pre-made script in Powershell on the domain controller. I select the user "Govob Take" and log in to the client computer using his credentials to test.
 </p>
 <br />
 
@@ -204,6 +199,6 @@ attempt to log into Client-1 with one of the accounts (take note of the password
 <img width="1440" alt="Screenshot 2023-08-21 at 5 05 07 PM" src="https://github.com/EvanGCowan/configure-ad/assets/142631599/37b46dff-76bf-4585-9735-81834d318d91">
 </p>
 <p>
-attempt to log into Client-1 with one of the accounts (take note of the password in the script)
+I am now logged on to the client computer as "Govob Take" and you can see his user file that has been created as a result of his sign in to this device. 
 </p>
 <br />
