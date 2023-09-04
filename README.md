@@ -144,11 +144,6 @@ Back in the Azure Portal, I set the client DNS settings to the domain controller
 <img width="1404" alt="Screenshot 2023-08-21 at 4 38 22 PM" src="https://github.com/EvanGCowan/configure-ad/assets/142631599/851204b4-4eb1-4e5d-a495-9761bd8a5167">
 </p>
 <p>
-Log into Client-1 as mydomain.com\jane_admin and open system properties
-Click “Remote Desktop”
-Allow “domain users” access to remote desktop
-You can now log into Client-1 as a normal, non-administrative user now
-
 </p>
 <br />
 
@@ -156,10 +151,7 @@ You can now log into Client-1 as a normal, non-administrative user now
 <img width="1398" alt="Screenshot 2023-08-21 at 4 46 12 PM" src="https://github.com/EvanGCowan/configure-ad/assets/142631599/eda7e0c8-a397-4399-b258-d0ca5139f113">
 </p>
 <p>
-Log into Client-1 as mydomain.com\jane_admin and open system properties
-Click “Remote Desktop”
-Allow “domain users” access to remote desktop
-You can now log into Client-1 as a normal, non-administrative user now
+In the above two slides, we log in to the client device as the admin and change settings in the remote desktop manager to allow the domain users to sign in. 
 </p>
 <br />
 
@@ -167,7 +159,7 @@ You can now log into Client-1 as a normal, non-administrative user now
 <img width="1416" alt="Screenshot 2023-08-21 at 4 47 32 PM" src="https://github.com/EvanGCowan/configure-ad/assets/142631599/605e44d9-3805-4fdb-93d3-b8a0e9c58a20">
 </p>
 <p>
-Login to the Domain Controller (Remote Desktop) and verify Client-1 shows up in Active Directory Users and Computers (ADUC) inside the “Computers” container on the root of the domain
+Back in the domain controller, we can see that the Admins and the Users are both members of the domain.
 </p>
 <br />
 
