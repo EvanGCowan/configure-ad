@@ -144,7 +144,11 @@ Back in the Azure Portal, I set the client DNS settings to the domain controller
 <img width="1404" alt="Screenshot 2023-08-21 at 4 38 22 PM" src="https://github.com/EvanGCowan/configure-ad/assets/142631599/851204b4-4eb1-4e5d-a495-9761bd8a5167">
 </p>
 <p>
-TEXT DESCRIPTION GOES HERE
+Log into Client-1 as mydomain.com\jane_admin and open system properties
+Click “Remote Desktop”
+Allow “domain users” access to remote desktop
+You can now log into Client-1 as a normal, non-administrative user now
+
 </p>
 <br />
 
@@ -152,7 +156,11 @@ TEXT DESCRIPTION GOES HERE
 <img width="1398" alt="Screenshot 2023-08-21 at 4 46 12 PM" src="https://github.com/EvanGCowan/configure-ad/assets/142631599/eda7e0c8-a397-4399-b258-d0ca5139f113">
 </p>
 <p>
-TEXT DESCRIPTION GOES HERE
+Log into Client-1 as mydomain.com\jane_admin and open system properties
+Click “Remote Desktop”
+Allow “domain users” access to remote desktop
+You can now log into Client-1 as a normal, non-administrative user now
+
 </p>
 <br />
 
@@ -160,7 +168,7 @@ TEXT DESCRIPTION GOES HERE
 <img width="1416" alt="Screenshot 2023-08-21 at 4 47 32 PM" src="https://github.com/EvanGCowan/configure-ad/assets/142631599/605e44d9-3805-4fdb-93d3-b8a0e9c58a20">
 </p>
 <p>
-TEXT DESCRIPTION GOES HERE
+Login to the Domain Controller (Remote Desktop) and verify Client-1 shows up in Active Directory Users and Computers (ADUC) inside the “Computers” container on the root of the domain
 </p>
 <br />
 
@@ -168,7 +176,9 @@ TEXT DESCRIPTION GOES HERE
 <img width="1416" alt="Screenshot 2023-08-21 at 4 49 35 PM" src="https://github.com/EvanGCowan/configure-ad/assets/142631599/16109395-5827-45ee-bd91-08530aa4b457">
 </p>
 <p>
-TEXT DESCRIPTION GOES HERE
+Login to DC-1 as jane_admin
+Open PowerShell_ise as an administrator
+Create a new File and paste the contents of the script into it 
 </p>
 <br />
 
@@ -176,7 +186,9 @@ TEXT DESCRIPTION GOES HERE
 <img width="1416" alt="Screenshot 2023-08-21 at 4 56 33 PM" src="https://github.com/EvanGCowan/configure-ad/assets/142631599/24d9e7cc-cd81-448c-b314-3be8cac75b6d">
 </p>
 <p>
-TEXT DESCRIPTION GOES HERE
+Login to DC-1 as jane_admin
+Open PowerShell_ise as an administrator
+Create a new File and paste the contents of the script into it 
 </p>
 <br />
 
@@ -184,7 +196,7 @@ TEXT DESCRIPTION GOES HERE
 <img width="1416" alt="Screenshot 2023-08-21 at 5 00 04 PM" src="https://github.com/EvanGCowan/configure-ad/assets/142631599/312bf44d-a313-47e3-a4c8-73d05b41fefc">
 </p>
 <p>
-TEXT DESCRIPTION GOES HERE
+attempt to log into Client-1 with one of the accounts (take note of the password in the script)
 </p>
 <br />
 
@@ -192,6 +204,6 @@ TEXT DESCRIPTION GOES HERE
 <img width="1440" alt="Screenshot 2023-08-21 at 5 05 07 PM" src="https://github.com/EvanGCowan/configure-ad/assets/142631599/37b46dff-76bf-4585-9735-81834d318d91">
 </p>
 <p>
-TEXT DESCRIPTION GOES HERE
+attempt to log into Client-1 with one of the accounts (take note of the password in the script)
 </p>
 <br />
